@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background:url("https://wallpapercave.com/wp/wp9764093.jpg");
+}
+.container{
+    width: 55%;
+    margin: auto;
+    margin-top: 80px;
+}
+section{
+   
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.logo img{
+    width: 350px;
+    height: 350px;
+}
+.logo{
+    width: 45%;
+    background: transparent;
+}
+.signup_content{
+
+    background: transparent;
+    width: 60%;
+}
+ form h1{
+    text-align: center;
+    font-size: xx-large;
+    color: lightseagreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+form span{
+    margin-left: 30%;
+}
+form span i{
+    background-color: bisque;
+    border-radius: 30px;
+    padding: 5px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+form p {
+    text-align: center;
+    color: gray;
+}
+form input{
+    width: 80%;
+    font-size: 15px;
+    margin-left: 10%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    border: none;
+    background: transparent;
+    border: 1px solid blueviolet;
+}
+form input:focus{
+    color: white;
+    border: none;
+    background: linear-gradient(to right, #003366 0%, #669999 100%);
+}
+form button{
+    width: 80%;
+    margin-left: 12%;
+    font-size: 15px;
+    padding: 10px 0 10px 0;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background: linear-gradient(to right, #003366 0%, #669999 100%);
+}
+form button:hover{
+    background: linear-gradient(to left, #003366 0%, #669999 100%);
+}
+h3 , h4{
+    text-align: center;
+}

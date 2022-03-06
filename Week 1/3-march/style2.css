@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+ background-color: whitesmoke;
+ font-family: sans-serif;
+ display: flex;
+ justify-content:center ;
+ align-items: center;
+}
+.swap{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 50%;
+    height: 30vh;
+    background-color: white;
+}
+h2{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    color: green;
+}
+button{
+    padding: 5px 50px 5px 50px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    margin-left: 40%;
+    cursor: pointer;
+   
+}
+input{
+    padding: 5px 10px 5px 10px;
+    margin-left: 13%;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: none;
+    border-bottom: 5px solid blueviolet;
+}
