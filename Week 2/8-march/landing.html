@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="landing.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Free Stock Photos,</title>
+</head>
+
+<body>
+  <div class="first-div">
+    <nav>
+      <div class="logo">
+        <img src="./galllery.png">
+        <h1>Gallery</h1>
+      </div>
+      <ul>
+        <li><a href="">Explore</a></li>
+        <li><a href="">Licence</a></li>
+        <li><a href="">Upload</a></li>
+        <li><a href=""><i class="fa-solid fa-ellipsis"></i></a></li>
+        <li><a href="">Join</a></li>
+      </ul>
+    </nav>
+    <div class="card">
+      <h3>Photo by Roman Kirienko The best free stock photos, royalty
+        free images & videos shared by creators.</h3>
+      <br>
+      <input type="text" name="search_key" placeholder="Search for free photo and videos"><button><i
+          class="fa-solid fa-magnifying-glass"></i></button>
+      <p style="color: #05a081;">Suggested: <span style="color: #05a081;">desert outdoors sky beautiful trees abstract
+          more</span></p>
+    </div>
+  </div>
+  <div class="nav2">
+    <ul>
+      <li class="active"><a href="">Home</a></li>
+      <li><a href="">Discover</a></li>
+      <li><a href="">Videos</a></li>
+      <li><a href="">Leaderboard</a></li>
+      <li><a href="">Challenges</a></li>
+    </ul>
+  </div>
+  <div id="main" class="main">
+  <div class="img-card">
+    <img onclick="show('https://images.pexels.com/photos/708440/pexels-photo-708440.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1200')" ondblclick="like(1,'op_like')" src="https://images.pexels.com/photos/708440/pexels-photo-708440.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300"/>
+    <button onclick="like(1,'op_like')" class="btn_like"><i class="fa-solid fa-heart"></i><span  id="op_like">..</span></button>
+    <button onclick="dislike(1,'op_dislike')" class="btn_dislike"><i class="fa-solid fa-heart-crack"></i><span id="op_dislike">..</span></button>
+  </div>
+
+  <div class="img-card">
+    <img onclick="show('https://images.pexels.com/photos/1549280/pexels-photo-1549280.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1200')" src="https://images.pexels.com/photos/1549280/pexels-photo-1549280.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300"/>
+    <button onclick="like(2,'op_like1')" class="btn_like"><i class="fa-solid fa-heart"></i><span  id="op_like1">  ..</span></button>
+    <button onclick="dislike(2,'op_dislike1')" class="btn_dislike"><i class="fa-solid fa-heart-crack"></i><span id="op_dislike1">..</span></button>
+  </div>
+
+  <div class="img-card">
+    <img onclick="show('https://images.pexels.com/photos/1267696/pexels-photo-1267696.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1200')" src="https://images.pexels.com/photos/1267696/pexels-photo-1267696.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300"/>
+    <button onclick="like(3,'op_like2')" class="btn_like"><i class="fa-solid fa-heart"></i><span  id="op_like2">..</span></button>
+    <button onclick="dislike(3,'op_dislike2')" class="btn_dislike"><i class="fa-solid fa-heart-crack"></i><span id="op_dislike2">..</span></button>
+  </div>
+
+  <div class="img-card">
+    <img onclick="show('https://images.pexels.com/photos/1524105/pexels-photo-1524105.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1200')" src="https://images.pexels.com/photos/1524105/pexels-photo-1524105.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300"/>
+    <button onclick="like(4,'op_like3')" class="btn_like"><i class="fa-solid fa-heart"></i><span  id="op_like3">..</span></button>
+    <button onclick="dislike(4,'op_dislike3')" class="btn_dislike"><i class="fa-solid fa-heart-crack"></i><span id="op_dislike3">..</span></button>
+  </div>
+
+  <div class="img-card">
+    <img onclick="show('https://images.pexels.com/photos/1255062/pexels-photo-1255062.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1200')" src="https://images.pexels.com/photos/1255062/pexels-photo-1255062.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300"/>
+    <button onclick="like(5,'op_like4')" class="btn_like"><i class="fa-solid fa-heart"></i><span  id="op_like4">..</span></button>
+    <button onclick="dislike(5,'op_dislike4')" class="btn_dislike"><i class="fa-solid fa-heart-crack"></i><span id="op_dislike4">..</span></button>
+  </div>
+
+  <div class="img-card">
+    <img onclick="show('https://images.pexels.com/photos/745045/pexels-photo-745045.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1200')" src="https://images.pexels.com/photos/745045/pexels-photo-745045.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300"/>
+    <button onclick="like(6,'op_like5')" class="btn_like"><i class="fa-solid fa-heart"></i><span  id="op_like5">..</span></button>
+    <button onclick="dislike(6,'op_dislike5')" class="btn_dislike"><i class="fa-solid fa-heart-crack"></i><span id="op_dislike5">..</span></button>
+  </div>
+
+   <div class="img-card">
+    <img onclick="show('https://images.pexels.com/photos/1974927/pexels-photo-1974927.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1200')" src="https://images.pexels.com/photos/1974927/pexels-photo-1974927.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300"/>
+    <button onclick="like(7,'op_like6')" class="btn_like"><i class="fa-solid fa-heart"></i><span  id="op_like6">..</span></button>
+    <button onclick="dislike(7,'op_dislike6')" class="btn_dislike"><i class="fa-solid fa-heart-crack"></i><span id="op_dislike6">..</span></button>
+  </div>
+
+  <div class="img-card">
+    <img onclick="show('https://images.pexels.com/photos/708440/pexels-photo-708440.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1200')" src="https://images.pexels.com/photos/708440/pexels-photo-708440.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300"/>
+    <button onclick="show()" class="btn_like"><i class="fa-solid fa-heart"></i><span  id="op_like7">..</span></button>
+    <button onclick="dislike(8,'dislike7')" class="btn_dislike"><i class="fa-solid fa-heart-crack"></i><span id="op_dislike7">..</span></button>
+  </div>
+
+  <div class="img-card">
+    <img onclick="show('https://images.pexels.com/photos/1267697/pexels-photo-1267697.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1200')" src="https://images.pexels.com/photos/1267697/pexels-photo-1267697.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300"/>
+    <button onclick="like(9,'op_like8')" class="btn_like"><i class="fa-solid fa-heart"></i><span  id="op_like8">..</span></button>
+    <button onclick="dislike(9,'op_dislike8')" class="btn_dislike"><i class="fa-solid fa-heart-crack"></i><span id="op_dislike8">..</span></button>
+  </div>
+
+  <div class="img-card">
+    <img onclick="show('https://images.pexels.com/photos/697244/pexels-photo-697244.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1200')" src="https://images.pexels.com/photos/697244/pexels-photo-697244.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300"/>
+    <button onclick="like(10,'op_like9')" class="btn_like"><i class="fa-solid fa-heart"></i><span  id="op_like9">..</span></button>
+    <button onclick="dislike(10,'op_dislike9')" class="btn_dislike"><i class="fa-solid fa-heart-crack"></i><span id="op_dislike9">..</span></button>
+  </div>
+
+  <div class="img-card">
+    <img onclick="show('https://images.pexels.com/photos/708440/pexels-photo-708440.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1200')" src="https://images.pexels.com/photos/708440/pexels-photo-708440.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300"/>
+    <button onclick="like(11,'op_like10')" class="btn_like"><i class="fa-solid fa-heart"></i><span  id="op_like10">..</span></button>
+    <button onclick="dislike(11,'op_dislike10')" class="btn_dislike"><i class="fa-solid fa-heart-crack"></i><span id="op_dislike10">..</span></button>
+  </div>
+
+  <div class="img-card">
+    <img onclick="show('https://images.pexels.com/photos/708440/pexels-photo-708440.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1200')" src="https://images.pexels.com/photos/708440/pexels-photo-708440.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300"/>
+    <button onclick="like(12,'op_like11')" class="btn_like"><i class="fa-solid fa-heart"></i><span  id="op_like11">..</span></button>
+    <button onclick="dislike(12,'op_dislike11')" class="btn_dislike"><i class="fa-solid fa-heart-crack"></i><span id="op_dislike11">..</span></button>
+  </div>
+
+  <div class="img-card">
+    <img onclick="show('https://images.pexels.com/photos/1231230/pexels-photo-1231230.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1200')" src="https://images.pexels.com/photos/1231230/pexels-photo-1231230.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300"/>
+    <button onclick="like(13,'op_like12')" class="btn_like"><i class="fa-solid fa-heart"></i><span  id="op_like12">..</span></button>
+    <button onclick="dislike(13,'op_dislike12')" class="btn_dislike"><i class="fa-solid fa-heart-crack"></i><span id="op_dislike12">..</span></button>
+  </div>
+
+  <div class="img-card">
+    <img onclick="show('https://images.pexels.com/photos/1036804/pexels-photo-1036804.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1200')" src="https://images.pexels.com/photos/1036804/pexels-photo-1036804.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300"/>
+    <button onclick="like(14,'op_like13')" class="btn_like"><i class="fa-solid fa-heart"></i><span  id="op_like13">..</span></button>
+    <button onclick="dislike(14,'op_dislike13')" class="btn_dislike"><i class="fa-solid fa-heart-crack"></i><span id="op_dislike13">..</span></button>
+  </div> 
+  
+
+  </div>
+
+<div class="zoom">
+  <div class="x"><i onclick="hide()" class="fa-solid fa-xmark"></i></div>
+  <img id="img" src=""><br>
+
+</div>
+  <script src="./index.js"></script>
+</body>
+
+</html>

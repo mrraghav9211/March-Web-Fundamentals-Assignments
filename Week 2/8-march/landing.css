@@ -1,0 +1,193 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.first-div{
+	background: url("https://images.pexels.com/photos/21787/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=1400");
+   height: 80vh	;
+}
+nav{
+	width: 100%;
+	height: 60px;
+	background: transparent;
+}
+.logo h1{
+	position: absolute;
+	top: 20px;
+	left: 70px;
+	color: white;
+}
+.logo{
+	float: left;
+}
+.logo img{
+	width: 50px;
+	height: 50px;
+	margin-left: 20px;
+}
+nav ul{
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+nav ul li{
+	display: inline-block;
+	margin-right: 30px;
+	font-size: 20px;
+}
+nav ul li:last-child{
+	background: #05a081;
+	padding: 8px 25px 8px 25px;
+	border-radius: 5px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+.card{
+	width: 55%;
+	height: 45vh;
+	
+	margin: auto;
+	position: relative;
+	top: 50px;
+}
+.card h3{
+	font-size: 40px;
+	color: white;
+	width: 80%;
+	font-weight: bold;
+}
+.card input{
+	font-size: 18px;
+	width: 85%;
+	padding: 20px 20px 20px 15px;
+	border: none;
+	border-right: none;
+	background: white;
+	border-radius: 10px 0 0 10px;
+}
+.card button{
+    padding: 18px 20px 20px 20px;
+    border-left: none;
+    background: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 0 10px 10px 0;
+}
+.nav2{
+	margin: 0;
+    height: 51px;
+    width: 100%;
+    border: 1px solid lightgray;
+}
+.nav2 ul{
+	width: 40%;
+	margin: auto;
+	/*position: relative;
+	top: 18px;*/
+}
+.nav2 ul li{
+	display: inline-block;
+	margin-left: 25px;
+    padding: 15px 5px 15px 5px;
+}
+.nav2 ul li a{
+	text-decoration: none;
+	color: gray;
+	font-size: 18px;
+}
+.nav2 ul li:hover{
+	border-bottom: 2px solid blueviolet;
+}
+.active{
+	border-bottom: 2px solid blueviolet;
+	color: blueviolet;
+}
+.main{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	gap: 10px;
+}
+.img-card{
+	
+	width: 24%;
+	height: 50vh;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.img-card img{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.img-card span{
+	color:blue;
+	padding: 5px 5px 5px 5px;
+}
+button img{
+	width: 30px;
+	height: 30px;
+}
+.btn_like{
+	margin-left: 15px;
+	background-color: black;
+	color: white;
+	padding: 5px 15px 5px 15px ;
+	font-size: 20px;
+}
+.btn_like:active{
+	color: red;
+}
+.btn_like span{
+	color: green;
+	font-size: 20px;
+}
+.btn_dislike{
+	float: right;
+	margin-right: 15px;
+	background-color: black;
+	color: white;
+	padding: 5px 15px 5px 15px;
+	font-size: 20px;
+}
+.btn_dislike:active{
+	color: red;
+}
+
+.btn_dislike span{
+	color: red;
+font-size: 20px;
+}
+
+
+.zoom{
+	position: fixed;
+	top: 5px;
+	left: 10%;
+	width: 72%;
+	height: 95vh;
+	background-color:black;
+	
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	margin: auto;
+	display: none;
+}
+.zoom img{
+	
+	width: 980px;
+	height: 700px;
+
+	
+}
+
+.x{
+	width: 20px;
+	margin-left: 940px;
+	position: absolute;
+}
+.x i{
+	font-size: 30px;
+	cursor: pointer;
+	color: white;
+}
